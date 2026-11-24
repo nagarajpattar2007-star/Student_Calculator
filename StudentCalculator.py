@@ -46,7 +46,6 @@ if __name__ == "__main__":
     avg_a = average(student_a)
     print(f"Student A Marks: {student_a}")
     print(f"  Average: {avg_a} | Grade: {grade(avg_a)} | Passed: {is_pass(student_a)}")
-```[cite: 1]
 def highest_mark(marks):
     """Return the highest individual mark from a non-empty list of marks."""
     _validate_marks(marks)
